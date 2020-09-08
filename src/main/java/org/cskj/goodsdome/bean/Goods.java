@@ -65,6 +65,11 @@ public class Goods {
 	public void setContent(String content) {
 		this.content = content;
 	}
+	@Override
+	public String toString() {
+		return "Goods [id=" + id + ", name=" + name + ", price=" + price + ", createDate=" + createDate + ", keepDate="
+				+ keepDate + ", weight=" + weight + ", content=" + content + "]";
+	}
 	
 	
 }
